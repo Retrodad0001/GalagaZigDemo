@@ -1,0 +1,42 @@
+ASAP 
+- update use raylib sdl3 backend asap when stable version SDL3 is out
+
+** 0.1.0 **
+V setup build with zig and raylib
+V setup basic example scene with raylib
+V show alway test results in run script
+- add IMGui to raylib
+- hookup memory checking in debug version
+
+- setup basic scene management and draw the player and use some free texture atlas
+
+- hookup logging to RAYLIB
+
+- setup debug console (F12 on/off)
+    - set FPS and get delta_time
+    - show FPS in debug
+        -setup font management
+    - show mouse pos in debug and enable / disable debug
+        -setup input management (mouse + keyboard)
+
+- check if i can use renderdoc
+- check if i can use debug tooling
+- check if i can use perf test tool and buy it?
+
+
+** 0.2.0 **
+- setup release script for different targets
+    -strip asserts in build
+    -maximum performance mode ?
+    -set icon
+    -setup production logging and test it (for reporting bugs)
+    -release mode all tests must succeed validation
+
+** 1.0.0 **
+- polish
+
+
+** Later
+
+
+** Never
